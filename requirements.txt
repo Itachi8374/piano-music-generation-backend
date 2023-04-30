@@ -1,3 +1,4 @@
 tensorflow
 pretty_midi
 gunicorn
+flask
