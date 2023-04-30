@@ -5,7 +5,6 @@ flask
 IPython
 numpy
 tqdm
-random
 numpy
 pickle
 matplotlib
