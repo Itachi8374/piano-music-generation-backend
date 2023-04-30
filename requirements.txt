@@ -6,5 +6,4 @@ IPython
 numpy
 tqdm
 numpy
-pickle
 matplotlib
