@@ -403,6 +403,7 @@ class SeqSelfAttention(tf.keras.layers.Layer):
       return {'SeqSelfAttention': SeqSelfAttention}
     
 model = tf.keras.models.load_model('model_ep4.h5', custom_objects=SeqSelfAttention.get_custom_objects())
+note_tokenizer = NoteTokenizer()
 note_tokenizer  = pickle.load( open( "tokenizer.p", "rb" ) )
 
 def generate_from_random(unique_notes, seq_len=50):
